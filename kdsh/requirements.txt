@@ -1,0 +1,10 @@
+pandas
+numpy
+tqdm
+regex
+scikit-learn
+requests
+transformers
+sentencepiece
+groq
+python-dotenv
