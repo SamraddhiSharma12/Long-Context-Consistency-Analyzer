@@ -1,6 +1,4 @@
-abKharagpur Data Science Hackathon 2026
-
-
+Kharagpur Data Science Hackathon 2026
 Track A: Long-Context Narrative Consistency Verification
 
 --Overview--
