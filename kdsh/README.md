@@ -49,23 +49,19 @@ The pipeline follows a modular, interpretable design:
    • Otherwise → unsupported (0)
 
 --------------------------------
-
-Repository Structure
-
 kdsh/
 ├── scripts/
-│   ├── run_pipeline.py        # End-to-end execution
-│   ├── extract_claims.py      # Atomic claim extraction
-│   ├── retrieve_evidence.py  # Evidence lookup with caching
-│   └── decide_consistency.py # Decision logic
+│   ├── run_pipeline.py      # End-to-end execution
+│   ├── extract_claims.py    # Atomic claim extraction
+│   ├── retrieve_evidence.py # Evidence lookup with caching
+│   └── decide_consistency.py# Decision logic
 ├── data/
-│   ├── books/                # Full novel texts
-│   ├── csv/                  # Provided train/test CSVs
-│   ├── *_chunks.jsonl        # Chunked novels
-│   └── claim_evidence_cache.json
-├── results.csv               # Final test predictions
+│   ├── books/               # Full novel texts
+│   ├── csv/                 # Provided train/test CSVs
+│   ├── *_chunks.jsonl       # Chunked novels
+│   └── claim_evidence.json  # Cache
+├── results.csv              # Final test predictions
 └── README.md
-
 --------------------------------
 
 --Environment & Setup--
