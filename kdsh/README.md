@@ -1,26 +1,13 @@
-Kharagpur Data Science Hackathon 2026
-Track A: Long-Context Narrative Consistency Verification
+#Kharagpur Data Science Hackathon 2026 -Track A Submission 
 
---Overview--
-This project addresses the Kharagpur Data Science Hackathon (KDSH) 2026 Track A problem:
-verifying whether a hypothetical character backstory is causally and logically consistent
-with a long-form literary narrative (novels exceeding 100k words).
+**Team Name:** Squad 404  
+**Track:** A — Systems Reasoning with NLP and Generative AI
 
-Rather than treating the task as text generation or summarization, we formulate it as a
-constraint-based reasoning problem grounded strictly in explicit textual evidence.
+---
 
---------------------------------
+## Overview
+This repository contains our submission for the **Kharagpur Data Science Hackathon 2026 (Track A)**.
 
-
-Key Design Principles
-• Treat the task as causal consistency verification, not creative generation.
-• Decompose each backstory into atomic, verifiable factual claims.
-• Search for evidence across the entire narrative, not local passages.
-• Enforce an explicit-evidence-only rule (no inference or speculation).
-• Prefer interpretability and conservative aggregation.
-• Ensure end-to-end reproducibility.
-
---------------------------------
 
 System Architecture
 The pipeline follows a modular, interpretable design:
