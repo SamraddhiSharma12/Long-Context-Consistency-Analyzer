@@ -48,19 +48,22 @@ The pipeline follows a modular, interpretable design:
    • Any explicit support → consistent (1)
    • Otherwise → unsupported (0)
 
-kdsh/
-├── scripts/
-│   ├── run_pipeline.py      # End-to-end execution
-│   ├── extract_claims.py    # Atomic claim extraction
-│   ├── retrieve_evidence.py # Evidence lookup with caching
-│   └── decide_consistency.py# Decision logic
+KDS_HACKATHON/
 ├── data/
-│   ├── books/               # Full novel texts
-│   ├── csv/                 # Provided train/test CSVs
-│   ├── *_chunks.jsonl       # Chunked novels
-│   └── claim_evidence.json  # Cache
-├── results.csv              # Final test predictions
+│   ├── books/         # Full novel texts
+│   ├── train.csv
+│   └── test.csv
+├── src/
+│   ├── ingest.py      # Data loading and preprocessing
+│   ├── chunk.py       # Paragraph-aware chunking
+│   ├── indexer.py     # Embeddings + temporal metadata
+│   ├── reason.py      # Claim reasoning and NLI verification
+│   └── predict.py     # End-to-end pipeline
+├── results.csv        # Generated predictions
+├── requirements.txt
+├── Squad 404_Report.pdf
 └── README.md
+```
 
 --Environment & Setup--
 
