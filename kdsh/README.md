@@ -48,7 +48,6 @@ The pipeline follows a modular, interpretable design:
    • Any explicit support → consistent (1)
    • Otherwise → unsupported (0)
 
---------------------------------
 kdsh/
 ├── scripts/
 │   ├── run_pipeline.py      # End-to-end execution
@@ -62,7 +61,6 @@ kdsh/
 │   └── claim_evidence.json  # Cache
 ├── results.csv              # Final test predictions
 └── README.md
---------------------------------
 
 --Environment & Setup--
 
