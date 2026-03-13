@@ -76,6 +76,11 @@ This will install all required libraries, including Pathway, PyTorch, and Transf
 
 ### 4. Run the prediction pipeline
 ```bash
+# Set your API Key (Example for Groq)
+export GROQ_API_KEY=your_key_here
+
+# Run the end-to-end pipeline
+python scripts/run_pipeline.py
 python -m src.predict
 ```
 
